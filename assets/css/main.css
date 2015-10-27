@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500);
+@font-face {
+  font-family: frutigernextpro-heavy-cn;
+  src: url("../fonts/FrutigerNextPro-HeavyCn.otf");
+}
+@font-face {
+  font-family: frutigernextpro-light;
+  src: url("../fonts/FrutigerNextPro-Light.otf");
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: frutigernextpro-light;
+  line-height: 1.5;
+}
+
+input {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+hr {
+  border-top: 1px solid #000;
+  border: 0;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+header,
+aside,
+section,
+nav,
+article,
+footer,
+address {
+  display: block;
+}

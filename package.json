@@ -1,0 +1,18 @@
+{
+  "name": "esj16-frontend",
+  "version": "0.0.1",
+  "description": "esj16 - quiz",
+  "dependencies": {
+    "babelify": "*",
+    "browserify": "11.0.1",
+    "foundation-sites": "^5.5.3",
+    "gulp": "*",
+    "gulp-compass": "*",
+    "react": "0.13.3",
+    "react-async": "^2.1.0",
+    "react-router": "0.13.3",
+    "uglify-js": "2.4.24",
+    "vinyl-source-stream": "*",
+    "watchify": "3.3.1"
+  }
+}

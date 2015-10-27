@@ -1,0 +1,40 @@
+
+// Background
+@mixin background($imgpath, $position:0 0, $repeat: no-repeat) {
+    background: {
+        image: url($base-path + $imgpath);
+        position: $position;
+        repeat: $repeat;
+    }
+}
+
+// Center block-element
+@mixin center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Text Overflow
+@mixin text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// Position Absolute
+@mixin abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    bottom: $bottom;
+    left: $left;
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+
+@mixin fillmode($fill) {
+	-moz-animation-fill-mode: $fill;
+	-ms-animation-fill-mode: $fill;
+	-o-animation-fill-mode: $fill;
+	-webkit-animation-fill-mode: $fill;
+	animation-fill-mode: $fill;
+}
